@@ -1,0 +1,79 @@
+E:\\Multimedia\\Movies\\input.txt
+E:\\Multimedia\\Movies\\The masterclass
+E:\\Multimedia\\Movies\\The second best
+E:\\Multimedia\\Movies\\The unseen
+E:\\Multimedia\\Movies\\The masterclass\\A Beautiful Mind [2001] (Drama, 8.1).mkv
+E:\\Multimedia\\Movies\\The masterclass\\batman series
+E:\\Multimedia\\Movies\\The masterclass\\Catch Me If You Can [2002].mkv
+E:\\Multimedia\\Movies\\The masterclass\\Eternal Sunshine of the Spotless Mind [2004].avi
+E:\\Multimedia\\Movies\\The masterclass\\Fight.Club.1999.1080p.Bluray.x264.anoXmous
+E:\\Multimedia\\Movies\\The masterclass\\Godfather- Series
+E:\\Multimedia\\Movies\\The masterclass\\Pirates of silicon valley
+E:\\Multimedia\\Movies\\The masterclass\\Scent.of.a.Woman.1992.720p.BluRay.x264.YIFY.mp4
+E:\\Multimedia\\Movies\\The masterclass\\The Pursuit of Happiness [2006].avi
+E:\\Multimedia\\Movies\\The masterclass\\The.Wolf.of.Wall.Street.2013.DVDSCR.XviD-BiDA
+E:\\Multimedia\\Movies\\The masterclass\\batman series\\Batman Begins {2005}.mp4
+E:\\Multimedia\\Movies\\The masterclass\\batman series\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel
+E:\\Multimedia\\Movies\\The masterclass\\batman series\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel.mp4
+E:\\Multimedia\\Movies\\The masterclass\\batman series\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel.png
+E:\\Multimedia\\Movies\\The masterclass\\batman series\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel\\Batman The Dark Knight [2008]-720p-BRrip-x264-KurdishAngel.srt
+E:\\Multimedia\\Movies\\The masterclass\\Fight.Club.1999.1080p.Bluray.x264.anoXmous\\Fight Club (1999).JPG
+E:\\Multimedia\\Movies\\The masterclass\\Fight.Club.1999.1080p.Bluray.x264.anoXmous\\Fight.Club.1999.1080p.Bluray.x264.anoXmous.mp4
+E:\\Multimedia\\Movies\\The masterclass\\Fight.Club.1999.1080p.Bluray.x264.anoXmous\\Fight.Club.1999.1080p.Bluray.x264.anoXmous_eng.srt
+E:\\Multimedia\\Movies\\The masterclass\\Godfather- Series\\The.Godfather.Part.I.1972.720p.BrRip.x264.YIFY.mp4
+E:\\Multimedia\\Movies\\The masterclass\\Godfather- Series\\The.Godfather.Part.II.1974.720p.BrRip.x264.YIFY.mp4
+E:\\Multimedia\\Movies\\The masterclass\\Godfather- Series\\The.Godfather.Part.II.1974.720p.BrRip.x264.YIFY.srt
+E:\\Multimedia\\Movies\\The masterclass\\Godfather- Series\\The.Godfather.Part.III.1990.720p.BrRip.x264.YIFY.mp4
+E:\\Multimedia\\Movies\\The masterclass\\Godfather- Series\\The.Godfather.Part.III.1990.720p.BrRip.x264.YIFY.srt
+E:\\Multimedia\\Movies\\The masterclass\\Pirates of silicon valley\\Pirates of Silicon Valley online - MovShare - Reliable video hosting.avi
+E:\\Multimedia\\Movies\\The masterclass\\Pirates of silicon valley\\Pirates.of.Silicon.Valley.1999.ENG.srt
+E:\\Multimedia\\Movies\\The masterclass\\The.Wolf.of.Wall.Street.2013.DVDSCR.XviD-BiDA\\The.Wolf.of.Wall.Street (2013).DVDScr.XviD-BiDA.srt
+E:\\Multimedia\\Movies\\The masterclass\\The.Wolf.of.Wall.Street.2013.DVDSCR.XviD-BiDA\\The.Wolf.of.Wall.Street.2013.DVDScr.XviD-BiDA.avi
+E:\\Multimedia\\Movies\\The second best\\Harry Potter And The Deathly Hallows Part 2 (Adventure, Family, Fantasy, 8.1).mkv
+E:\\Multimedia\\Movies\\The second best\\into the wild.avi
+E:\\Multimedia\\Movies\\The second best\\Life of Pi (2012) DVDscr 720p x264-[Dual Audio] [Hindi+English]--prisak~~{HKRG}.mkv
+E:\\Multimedia\\Movies\\The second best\\RocknRolla
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp
+E:\\Multimedia\\Movies\\The second best\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous
+E:\\Multimedia\\Movies\\The second best\\The.Hunger.Games.Catching.Fire.2013.720p.BluRay.x264.YIFY.mp4
+E:\\Multimedia\\Movies\\The second best\\Warrior (2011)
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Kingdom RG Please read.nfo
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\RocknRolla.jpg
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\RocknRolla.mp4
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Sample
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Subs
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Thumbs.db
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Sample\\RocknRolla sample.mp4
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Sample\\Thumbs.db
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Subs\\Demonoid.com.txt
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Subs\\RocknRolla Eng.srt
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Subs\\RocknRolla Rom.srt
+E:\\Multimedia\\Movies\\The second best\\RocknRolla\\Subs\\tracked_by_h33t_com.txt
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\Devils Advocate [1997]DvDrip[Eng]-NikonXp.idx
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\Devils Advocate [1997]DvDrip[Eng]-NikonXp.sub
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp.avi
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\The Devils Advocate [ENG] [FR] [SPA] SUB FILES- NikonXp
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\Thumbs.db
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\Torrent downloaded from Demonoid.com.txt
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\The Devils Advocate [ENG] [FR] [SPA] SUB FILES- NikonXp\\Devils Advocate [1997]DvDrip[Eng]-NikonXp.idx
+E:\\Multimedia\\Movies\\The second best\\The Devils Advocate [1997]DvDrip[Eng]-NikonXp\\The Devils Advocate [ENG] [FR] [SPA] SUB FILES- NikonXp\\Devils Advocate [1997]DvDrip[Eng]-NikonXp.sub
+E:\\Multimedia\\Movies\\The second best\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous\\info.txt
+E:\\Multimedia\\Movies\\The second best\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous.mp4
+E:\\Multimedia\\Movies\\The second best\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous_eng.srt
+E:\\Multimedia\\Movies\\The second best\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous\\The.Hunger.Games.2012.RERIP.720p.Bluray.x264.anoXmous_swe.srt
+E:\\Multimedia\\Movies\\The second best\\Warrior (2011)\\Warrior (2011).JPG
+E:\\Multimedia\\Movies\\The second best\\Warrior (2011)\\Warrior.2011.720p.BluRay.x264.YIFY.mp4
+E:\\Multimedia\\Movies\\The second best\\Warrior (2011)\\Warrior.2011.720p.BluRay.x264.YIFY.srt
+E:\\Multimedia\\Movies\\The unseen\\12 Years a Slave.mp4
+E:\\Multimedia\\Movies\\The unseen\\Alan Partridge Alpha Papa [2013] (Comedy, 7.7).mp4
+E:\\Multimedia\\Movies\\The unseen\\American Hustle [2013] DVDScr XviD-SaM[ETRG].avi
+E:\\Multimedia\\Movies\\The unseen\\Captain.Phillips.2013.720p.BluRay.X264-AMIABLE[USAMA].mkv
+E:\\Multimedia\\Movies\\The unseen\\Gravity (2013) [1080p] [USAMA]
+E:\\Multimedia\\Movies\\The unseen\\Prisoners (2013).mp4
+E:\\Multimedia\\Movies\\The unseen\\Scarface (1983)
+E:\\Multimedia\\Movies\\The unseen\\Gravity (2013) [1080p] [USAMA]\\Gravity.2013.1080p.WEB-DL.H264-PublicHD[USAMA].mkv
+E:\\Multimedia\\Movies\\The unseen\\Gravity (2013) [1080p] [USAMA]\\Gravity.2013.1080p.WEB-DL.H264-PublicHD[USAMA].srt
+E:\\Multimedia\\Movies\\The unseen\\Scarface (1983)\\Scarface.198h3.720p.HDTV.x264.AAC.mkv
+E:\\Multimedia\\Movies\\The unseen\\Scarface (1983)\\Scarface.198h3.720p.HDTV.x264.AAC.srt
+E:\\Multimedia\\Movies\\The unseen\\Scarface (1983)\\scarface_english-615833.zip
+E:\\Multimedia\\Movies\\The unseen\\Scarface (1983)\\Torrent downloaded from Demonoid.com.txt

@@ -1,0 +1,130 @@
+#ifndef __SORTS_CPP
+#define __SORTS_CPP
+#include "sorts.h"
+#include "list.cpp"
+#include <vector>
+using namespace std;
+
+//=====================================================================================
+template <typename T>
+void swap1(T& t1, T& t2) {
+        T a = t1;
+        t1 = t2;
+        t2 = a;
+}
+//_____________________________________________________________________________________
+vector<long> InsertionSort(vector<long> nums)
+{
+	int size = nums.size();
+	long arr[size];
+	//for (int i=0; i<size; i++) {
+	//	arr[i] = nums[i];
+	//}
+	for(int i=1; i<size; i++) {
+		arr[i] = nums[i];arr[i] = nums[i];
+		for (int j=i; j>0; j--) {
+			if (arr[j] < arr[j-1]) {
+				//swap1(arr[j], arr[j-1]);
+				long a = arr[j];
+			        arr[j] = arr[j-1];
+			        arr[j-1] = a;
+
+			}
+		}
+	}
+	vector<long> v;
+	for (int i=0; i<size; i++) {
+                v.push_back(arr[i]);
+        }
+	return v;
+}
+
+//=====================================================================================
+void divideMS(ListItem<long>* &h, int size) {
+        int h1 = floor(size);
+	int h2 = size-h1;
+	ListItem<long>* p1 = h;
+	ListItem<long>* p2 = p1;
+        for (int i=0; i<halfsize; i++) {
+                p2 = p2->next;
+        }
+	p2->prev->next = NULL;
+	p2->prev = NULL;
+	if (h1>1) {
+		divideMS(p1, h1);
+	}
+	if (h2>1) {
+		divideMS(p2, h2);
+	}
+	joinMS(p1, p2);
+}
+vector<long> MergeSort(vector<long> nums)
+{
+	int size = nums.size();
+	List<long> list();
+	for (int i=0; i<size; i++) {
+		list.insertAtHead(nums[i]);
+	}
+	ListItem<long>* p = list.getHead();
+	divideMS(p, size);
+}
+
+//=====================================================================================
+vector<long> QuickSortArray(vector<long> nums)
+{
+
+}
+
+//=====================================================================================
+vector<long> QuickSortList(vector<long> nums)
+{
+
+}
+
+//=====================================================================================
+class Heap {
+public:
+	vector<long> list;
+	Heap() {}
+	void insert(long key);
+	long extractmin();
+	void heapify();
+};
+void Heap::heapify() {
+	int s = list.length() - 1;
+	for (int i = s; i > 0; i--) {
+		int p = floor((i - 1) / 2);
+		if (list[i] < list[p]) {
+			long t1;
+			t1 = list[i];
+			list[i] = list[p];
+			list[p] = t1;
+		}
+	}
+}
+
+void Heap::insert(int key) {
+	list.push_back(key);
+	if (list.length() > 1) {
+		heapify();
+	}
+}
+
+long Heap::extractmin() {
+	long k = list[0];
+	heapify();
+	return k;
+}
+
+vector<long> HeapSort(vector<long> nums)
+{
+
+}
+
+//=====================================================================================
+vector<long> BucketSort(vector<long> nums, int max)
+{
+
+}
+
+#endif

@@ -1,0 +1,341 @@
+#ifndef GRAPH__CPP
+#define GRAPH__CPP
+#include <iostream>
+#include "Graph.h"
+//#include <fstream>
+#include <sstream>
+//#include <map>
+
+using namespace std;
+
+void tree::insert(node* n){
+	treeS.insert(n);	
+}
+
+bool tree::if_present(node* n) {
+	if (treeS.count(n) != 0) {
+		return 1;
+	} else {
+		return 0;
+	}
+}
+
+void tree::merge(set<node*> t){
+	set<node*>::iterator it;
+	it = t.begin();
+	for (int i = 0; i < t.size(); i++) {
+		treeS.insert(*it);
+		it++;
+	}
+}
+
+
+
+
+
+bool operator == (edge a, edge b)
+{
+	if (a.weight == b.weight) {
+		return 1;
+	} else {
+		return 0;
+	}
+}
+
+bool operator < (edge a, edge b)
+{
+	if (a.weight < b.weight) {
+                return 1;
+        } else {
+                return 0;
+        }
+}
+
+bool operator > (edge a, edge b)
+{
+	if (a.weight > b.weight) {
+                return 1;
+        } else {
+                return 0;
+        }
+}
+bool operator == (node a, node b)
+{
+        if (a.dist == b.dist) {
+                return 1;
+        } else {
+                return 0;
+        }
+}
+bool operator < (node a, node b)
+{
+	if (a.dist < b.dist) {
+                return 1;
+        } else {
+                return 0;
+        }
+}
+
+bool operator > (node a, node b)
+{
+	if (a.dist > b.dist) {
+                return 1;
+        } else {
+                return 0;
+        }
+}
+Graph::Graph(char* file)
+{
+	ifstream f(file);
+	string str1;
+	if (f.is_open()) {
+		int count = 0;
+		int check = 0;
+                while (getline(f, str1)) {
+			stringstream str(str1);
+			if (str1 == "NODES") {
+				check = 1;
+			}
+			else if (str1 == "ARCS") {
+                                check = 2;
+                        }
+			else if (check == 1) {
+				node* n = new node();
+				string s;
+				str >> s;
+				n->name = s;
+				place.insert(pair<string,int>(s,count));
+
+				double a;
+				str >> a;
+				n->x = a;
+				
+				str >> a;
+				n->y = a;
+				cities.push_back(n);
+				count++;
+			} 
+			else if (check == 2) {
+
+				edge e;
+				string s;
+                                str >> s;
+				node* nn = cities[place[s]];
+				e.Origin = new node();
+				e.Origin->name = s;
+
+                                str >> s;
+				e.Dest = new node();
+				e.Dest->name = s;
+
+				double a;
+                                str >> a;
+                                e.weight = a;
+				arcs.push_back(e);
+			}
+		}
+	}
+}
+node* Graph::getCity(string s)
+{
+	int i = place[s];
+	return cities[i];
+}
+void Graph::display(node* temp)
+{
+	if(temp->visit)
+		return;
+	
+	cout << "AT: " << temp->name;
+	temp->visit = 1;
+	for(int i=0; i< temp->edges.size(); i++)
+	{
+		if(!temp->edges[i].Origin->visit || !temp->edges[i].Dest->visit)
+		cout << "->" << temp->edges[i].weight << endl;
+		display(temp->edges[i].Origin);
+		display(temp->edges[i].Dest);
+	}
+
+}
+vector<node*> Graph::Kruskal()
+{
+	int size = arcs.size();
+	pqueue<edge> pq(size);
+	map<vector<node*>,int> index;
+//	set<node*>* v = new set<node*>[cities.size()];
+	vector<node*>* v;
+	v = new vector<node*>[cities.size()];
+	int count = 0;
+
+	for (int i=0; i<size; i++) {
+		edge e = arcs[i];
+		pq.insert(e);
+	}
+	for (int i=0; i<cities.size(); i++) {
+//		set<node*> s;
+  //              s.insert(cities[i]);
+
+//cout << s.size() << endl;
+//set<node*>::iterator it;
+//        it = s.begin();
+  //      for (int ia = 0; ia < s.size(); ia++) {
+    //            cout <<"s "<< (*it)->name << endl;
+      //          it++;
+        //}
+		vector<node*> v1;
+		v1.push_back(cities[i]);
+		v[i] = 1;
+//cout << v[i].size() << endl;
+
+//        set<node*>::iterator it;
+  //      it = v[i].begin();
+    //    for (int ai = 0; ai < v[i].size(); ai++) {
+      //          cout <<"v "<< (*it)->name << endl;
+        //        it++;
+       // }
+
+//bool dd = s.find(cities[i])!=s.end();
+//cout << dd << ' ' << i << ' ' << cities[i]->name << endl;
+                index.insert(pair<vector<node*>,int>(v,count));
+                count++;
+	}
+		
+	tree mst;
+int c1 = 0;
+int c2 = 0;
+	while (pq.numE >= 0) {
+//cout << c2 << ' ';
+c2++;
+		edge e = pq.ExtractMin();
+
+//		set<node*> s1;
+//		set<node*> s2;
+		vector<node*> s1;
+		vector<node*> s1;
+		
+		int flag1 = 0;
+		int flag2 = 0;
+		for (int i=0; i<cities.size(); i++) {
+//cout << 1 << ' '<< i << endl;
+//			bool d1 = v[i].find(e.Origin)!=v[i].end();
+//			bool d2 = v[i].find(e.Dest)!=v[i].end();
+			if (d1 == 1) {
+				s1 = v[i];
+cout << "flag reached" << endl;
+			}
+			if (d2 == 1) {
+                                s2 = v[i];
+cout << "flag reached" << endl;
+                        }
+		}
+		int check = 0;
+		bool d1 = s1.find(e.Dest)!=s1.end();
+                bool d2 = s2.find(e.Origin)!=s2.end();
+
+		if (d1 == 1 || d2 == 1) {
+			check = 1;
+		}
+		//if(s1 != s2) {
+		if (check == 0) {
+			tree newtree;
+			mst.merge(s1);
+			mst.merge(s2);
+			newtree.merge(s1);
+			newtree.merge(s2);
+			int a1 = index[s1];
+			int a2 = index[s2];
+			v[a1] = newtree.treeS;
+			v[a2] = newtree.treeS;
+			index.insert(pair<set<node*>,int>(newtree.treeS,a1));
+			index.insert(pair<set<node*>,int>(newtree.treeS,a2));
+			//cout << e.Origin->name << "  " << e.Dest->name << c1 << endl;
+			c1++;
+//cout << s1.size() << endl;
+
+	set<node*>::iterator it;
+        it = s1.begin();
+        for (int i = 0; i < s1.size(); i++) {
+                cout <<"s1 "<< (*it)->name << endl;
+                it++;
+        }
+	set<node*>::iterator it1;
+	it1 = v[a1].begin();
+        for (int i = 0; i < v[a1].size(); i++) {
+                cout <<"v1 " << (*it1)->name << endl;
+                it1++;
+        }
+	set<node*>::iterator it2;
+	it2 = s2.begin();
+        for (int i = 0; i < s2.size(); i++) {
+                cout <<"s2 " << (*it2)->name << endl;
+                it2++;
+        }
+	set<node*>::iterator it3;
+	it3 = v[a2].begin();
+        for (int i = 0; i < v[a2].size(); i++) {
+                cout <<"v2 " << (*it3)->name << endl;
+                it3++;
+        }
+
+		}
+	}
+	vector<node*> v123;
+	return v123;
+}
+		
+vector<string> Graph::Dijkstra(string city, string destination, float &d)
+{
+}
+
+
+
+
+int main() {
+/*
+tree s;
+node* a = new node();
+a->name = "a";
+node* b = new node();
+b->name = "b";
+node* c = new node();
+c->name = "c";
+node* d = new node();
+d->name = "d";
+node* e = new node();
+e->name = "e";
+node* f = new node();
+
+f->name = "f";
+tree s1;
+s1.insert(d);
+s1.insert(e);
+s1.insert(f);
+
+
+//s.insert(a);
+//s.insert(b);
+//s.insert(c);
+
+s.merge(s1.treeS);
+cout << s.if_present(a);
+cout << s.if_present(c);
+cout << s.if_present(b);
+cout << s.if_present(d);
+cout << s.if_present(e);
+cout << s.if_present(f);
+*/
+
+
+Graph g("USA.txt");
+//for (int i=0;i<g.arcs.size();i++) {
+	//cout << g.cities[i]->name << "  " << g.place[g.cities[i]->name] << endl;
+	//cout << g.getCity(g.cities[i]->name)->name << endl;
+//	cout << g.arcs[i].Origin->name <<' ' << i << endl;
+//}
+g.Kruskal();
+cout << endl;
+cout << "done";
+return 0;
+}
+
+#endif
